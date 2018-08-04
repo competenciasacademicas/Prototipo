@@ -23,8 +23,35 @@
       colocaron cubos de hielo del mismo tamaño en cada cartulina. Registraron sus observaciones en la siguiente tabla:</p>
     
       <img src="../../assets/img/Tabla1.JPG" width="100%" height="20%"/>
+
+    <ion-list>
+      <ion-item>
+
+      <ion-label>El factor que hace que el hielo de derrita con una velocidad diferente en las tres cartulinas es</ion-label>
+          <ion-label>El color de la cartulina.</ion-label>
+          <ion-checkbox [(ngModel)]="A" disabled="true"></ion-checkbox>
+        </ion-item>
       
-      <p>1. El factor que hace que el hielo de derrita con una velocidad diferente en las tres cartulinas es</p>
+        <ion-item>
+          <ion-label>El tamaño de la cartulina.</ion-label>
+          <ion-checkbox [(ngModel)]="B"></ion-checkbox>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label>El número de cubos de hielo.</ion-label>
+          <ion-checkbox [(ngModel)]="C"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>El tamaño de los cubos de hielo.</ion-label>
+            <ion-checkbox [(ngModel)]="D"></ion-checkbox>
+          </ion-item>
+      
+      </ion-list>
+
+    </ion-content>
+      
+      <!-- <p>1. El factor que hace que el hielo de derrita con una velocidad diferente en las tres cartulinas es</p>
 
       <ol type="A">
           <li> El color de la cartulina.</li>
@@ -54,4 +81,4 @@
 
 
 
-</ion-content>
+
